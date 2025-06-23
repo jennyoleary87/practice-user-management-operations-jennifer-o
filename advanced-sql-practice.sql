@@ -1,3 +1,5 @@
+-- LESSON 2 PRACTICE
+
 drop table if exists customers;
 drop table if exists orders;
 
