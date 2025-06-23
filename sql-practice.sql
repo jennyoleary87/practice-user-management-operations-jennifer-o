@@ -1,3 +1,5 @@
+-- LESSON 1 PRACTICE
+
 -- insert INTO users (username, firstName, lastName, age) 
 -- VALUES ('jdoe', 'John', 'Doe', 35);
 
