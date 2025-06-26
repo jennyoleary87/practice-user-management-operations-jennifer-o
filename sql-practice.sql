@@ -1,5 +1,14 @@
 -- LESSON 1 PRACTICE
 
+-- create table with checkboxes; would look like: 
+-- CREATE TABLE users (
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     username VARCHAR(50) NOT NULL,
+--     firstName VARCHAR(50) NOT NULL,
+--     lastName VARCHAR(50) NOT NULL,
+--     age INT NOT NULL
+-- );
+
 -- insert INTO users (username, firstName, lastName, age) 
 -- VALUES ('jdoe', 'John', 'Doe', 35);
 
@@ -33,4 +42,12 @@ VALUES
 -- UPDATE users SET firstName = 'Jane', lastName = 'Doe'
 -- WHERE username = 'jdoe';
 
+UPDATE users SET age = age + 1 
+WHERE age BETWEEN 15 AND 29;
+
 UPDATE users SET firstName = 'Jane' WHERE lastName = 'Doe';
+
+DELETE FROM users WHERE username = 'slee';
+
+DELETE FROM users WHERE lastName = 'Kim';
+
