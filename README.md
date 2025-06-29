@@ -22,3 +22,6 @@ Lesson 2 instructions:
 ● A short README.md with a 2–3 sentence reflection:
   ○ What did you learn?
   ○ What was most challenging?
+
+We practiced combining data from multiple related tables using JOIN and GROUP BY.
+One of the challenging parts was discerning when to use HAVING vs WHERE clauses.
