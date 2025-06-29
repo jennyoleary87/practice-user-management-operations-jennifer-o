@@ -42,12 +42,29 @@ VALUES
 -- UPDATE users SET firstName = 'Jane', lastName = 'Doe'
 -- WHERE username = 'jdoe';
 
-UPDATE users SET age = age + 1 
+UPDATE users 
+SET age = age + 1 
 WHERE age BETWEEN 15 AND 29;
 
-UPDATE users SET firstName = 'Jane' WHERE lastName = 'Doe';
+UPDATE users 
+SET firstName = 'Jane' 
+WHERE lastName = 'Doe';
 
-DELETE FROM users WHERE username = 'slee';
+DELETE FROM users 
+WHERE username = 'slee';
 
-DELETE FROM users WHERE lastName = 'Kim';
+DELETE FROM users 
+WHERE lastName = 'Kim';
 
+SELECT * FROM users;
+
+-- select * from users order by lastName asc limit 10 offset 20;
+
+SELECT *
+FROM users
+WHERE firstName LIKE 'A%';
+
+SELECT *
+FROM users
+ORDER BY age DESC
+LIMIT 5;
