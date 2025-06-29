@@ -10,6 +10,10 @@ Lesson 1 instructions:
 ● Write SELECT queries with conditions, sorting, and limits
 ● A brief README.md (2–3 sentences) describing what you practiced and what you found most challenging.
 
+We practiced fundamental database operations. 
+The most challenging aspect was syntax. The lines we wrote seemed backwards from a real conversational sentence.
+For example, I might start broader and work inward, saying "Look at users, where the ages are above 60, and delete that range". 
+
 Lesson 2 instructions:
 ● Use JOIN statements to combine data from multiple tables
 ● Write GROUP BY queries with aggregate functions like SUM and COUNT
